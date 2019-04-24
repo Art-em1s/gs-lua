@@ -1,5 +1,3 @@
-math.randomseed(client.timestamp())
-
 local bool_enabled = false
 local bool_first = true
 local client_userid_to_entindex = client.userid_to_entindex
