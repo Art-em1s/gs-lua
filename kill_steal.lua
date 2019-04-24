@@ -45,7 +45,7 @@ local function on_player_death(e)
     end
 end
 
-local function on_game_end()
+local function on_game_end() --sets to first run when the game ends so the name is reset on the first round again to prevent script from hitting limits
     bool_first = true
 end
 
